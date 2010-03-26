@@ -7,13 +7,13 @@
 Summary:	autobox - call methods on native types
 Summary(pl.UTF-8):	autobox - wywoływanie metod na rodzimych typach
 Name:		perl-autobox
-Version:	2.55
+Version:	2.70
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/C/CH/CHOCOLATE/autobox-%{version}.tar.gz
-# Source0-md5:	d2813439a0da9b048cc1793af05b2144
+# Source0-md5:	2399312bfffbf91e8fdce306f0357e86
 URL:		http://search.cpan.org/dist/autobox/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
