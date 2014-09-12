@@ -76,6 +76,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/autobox
 %{perl_vendorarch}/autobox/*.pm
 %dir %{perl_vendorarch}/auto/autobox
-%{perl_vendorarch}/auto/autobox//*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/autobox//*.so
 %{_mandir}/man3/*
