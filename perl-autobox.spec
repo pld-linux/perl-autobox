@@ -7,7 +7,7 @@ Summary:	autobox - call methods on native types
 Summary(pl.UTF-8):	autobox - wywoływanie metod na rodzimych typach
 Name:		perl-autobox
 Version:	3.0.1
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
