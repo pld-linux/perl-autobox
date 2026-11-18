@@ -6,13 +6,13 @@
 Summary:	autobox - call methods on native types
 Summary(pl.UTF-8):	autobox - wywoływanie metod na rodzimych typach
 Name:		perl-autobox
-Version:	3.0.1
-Release:	9
+Version:	3.0.2
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/C/CH/CHOCOLATE/autobox-v%{version}.tar.gz
-# Source0-md5:	7b2fce96b3ad20924555130ab9847b95
+Source0:	https://www.cpan.org/authors/id/C/CH/CHOCOLATE/autobox-v%{version}.tar.gz
+# Source0-md5:	8ef7fb185d29059474442dbe05aab027
 URL:		http://search.cpan.org/dist/autobox/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -74,6 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/autobox.pm
+%{perl_vendorarch}/autobox.pod
 %dir %{perl_vendorarch}/autobox
 %{perl_vendorarch}/autobox/*.pm
 %dir %{perl_vendorarch}/auto/autobox
